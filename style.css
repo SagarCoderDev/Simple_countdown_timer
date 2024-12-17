@@ -1,0 +1,79 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #2c3e50;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.time-box {
+  background: #34495e;
+  padding: 15px;
+  border-radius: 10px;
+  width: 70px;
+  text-align: center;
+}
+
+.time-box span {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.time-box p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.input-section {
+  margin-top: 20px;
+}
+
+input[type="datetime-local"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+button {
+  background: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+}
+
+button:hover {
+  background: #2980b9;
+}
